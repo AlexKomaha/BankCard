@@ -5,22 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.scss">
+    <script src="app/assets/builds/application.js"></script>
     <title>BankCard</title>
   </head>
   <body>
-    <h1>BankCard</h1>
-    <h2>Cardholder Name</h2>
-    <form action="/action_page.php">
-      <input type="text" id="name" name="name" value="E.g. Tatsuro Kawabata :"><br>
+    <div class="input_card">
+      <h2>Cardholder Name</h2>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="E.g. Tatsuro Kawabata :" aria-label="E.g. Tatsuro Kawabata :" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+        </div>
+      </div>
       <h2>Card Number</h2>
-      <input type="text" id="number" name="number" value="E.g. 1111 2222 3333 4444"><br>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="E.g. 1111 2222 3333 4444" aria-label="E.g. 1111 2222 3333 4444" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+        </div>
+      </div>
       <h2>EXP. DATE (MM/YY)</h2>
-      <input type="text" id="mm" name="mm" value="MM">
-      <input type="text" id="yy" name="yy" value="YY">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="MM" aria-label="MM" aria-describedby="basic-addon2">
+        <input type="text" class="form-control" placeholder="YY" aria-label="YY" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+        </div>
+      </div>
       <h2>CVC</h2>
-      <input type="text" id="cvc" name="cvc" value="E.g. cvc">
-      <br>
-      <input type="submit" value="Confirm">
-    </form>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="E.g. cvc" aria-label="E.g. cvc" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
