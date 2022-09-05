@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/assets/stylesheets/pages/_style.scss">
     <title>BankCard</title>
   </head>
   <body>
     <h1>BankCard</h1>
+    <h2>Cardholder Name</h2>
+    <form action="/action_page.php">
+      <input type="text" id="name" name="name" value="E.g. Tatsuro Kawabata :"><br>
+      <h2>Card Number</h2>
+      <input type="text" id="number" name="number" value="E.g. 1111 2222 3333 4444"><br>
+      <h2>EXP. DATE (MM/YY)</h2>
+      <input type="text" id="mm" name="mm" value="MM">
+      <input type="text" id="yy" name="yy" value="YY">
+      <h2>CVC</h2>
+      <input type="text" id="cvc" name="cvc" value="E.g. cvc">
+      <br>
+      <input type="submit" value="Confirm">
+    </form>
   </body>
 </html>
