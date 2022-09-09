@@ -9,32 +9,19 @@
     <title>BankCard</title>
   </head>
   <body>
-    <div class="input_card">
-      <h2>Cardholder Name</h2>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="E.g. Tatsuro Kawabata :" aria-label="E.g. Tatsuro Kawabata :" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-        </div>
-      </div>
+    <h1>BankCard</h1>
+    <h2>Cardholder Name</h2>
+    <form action="/action_page.php">
+      <input type="text" id="name" name="name" placeholder="E.g. Tatsuro Kawabata :"><br>
       <h2>Card Number</h2>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="E.g. 1111 2222 3333 4444" aria-label="E.g. 1111 2222 3333 4444" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-        </div>
-      </div>
+      <input type="text" id="number" name="number" placeholder="E.g. 1111 2222 3333 4444"><br>
       <h2>EXP. DATE (MM/YY)</h2>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="MM" aria-label="MM" aria-describedby="basic-addon2">
-        <input type="text" class="form-control" placeholder="YY" aria-label="YY" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-        </div>
-      </div>
+      <input type="text" id="mm" name="mm" placeholder="MM">
+      <input type="text" id="yy" name="yy" placeholder="YY">
       <h2>CVC</h2>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="E.g. cvc" aria-label="E.g. cvc" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-        </div>
-      </div>
-    </div>
+      <input type="text" id="cvc" name="cvc" placeholder="E.g. cvc">
+      <br>
+      <input type="submit" placeholder="Confirm">
+    </form>
   </body>
 </html>
