@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.scss">
     <script src="app/assets/builds/application.js"></script>
+    <script src="app/assets/stylesheets/pages/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BankCard</title>
   </head>
   <body>
@@ -26,7 +28,7 @@
         <input type="text" id="number" name="number" placeholder="E.g. 1111 2222 3333 4444"></div>
       <br>
       <div class="form_item3">
-        <h2>EXP. DATE (MM/YY)</h2>
+        <h2>Exp.Date (MM/YY)</h2>
         <input type="text" id="mm" name="mm" placeholder="MM">
         <input type="text" id="yy" name="yy" placeholder="YY">
       </div>
@@ -36,7 +38,11 @@
         <input type="text" id="cvc" name="cvc" placeholder="E.g. 123">
       </div>
       <br>
-      <input type="submit" placeholder="Confirm">
+      <div class="popup" onclick="myFunction()">
+        <span class="popuptext" id="myPopup">
+          <input type="submit" placeholder="Confirm">
+        </span>
+      </div>
     </div>
   </body>
 </html>
