@@ -25,24 +25,20 @@
       <br>
       <div class="form_item2">
         <h2>Card Number</h2>
-        <input type="text" id="number" name="number" placeholder="E.g. 1111 2222 3333 4444"></div>
+        <input type="text" id="number" name="number" placeholder="E.g. 1111 2222 3333 4444" maxlength="16"></div>
       <br>
       <div class="form_item3">
         <h2>Exp.Date (MM/YY)</h2>
-        <input type="text" id="mm" name="mm" placeholder="MM">
-        <input type="text" id="yy" name="yy" placeholder="YY">
+        <input type="text" id="mm" name="mm" placeholder="MM" maxlength="2" size="5">
+        <input type="text" id="yy" name="yy" placeholder="YY" maxlength="2" size="5">
       </div>
       <br>
       <div class="form_item4">
         <h2>CVC</h2>
-        <input type="text" id="cvc" name="cvc" placeholder="E.g. 123">
+        <input type="text" id="cvc" name="cvc" placeholder="E.g. 123" maxlength="3" size="16">
       </div>
       <br>
-      <div class="popup" onclick="myFunction()">
-        <span class="popuptext" id="myPopup">
-          <input type="submit" placeholder="Confirm">
-        </span>
-      </div>
+      <button type="button" class="btn btn-dark">Confirm</button>
     </div>
   </body>
 </html>
